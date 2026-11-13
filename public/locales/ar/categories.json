@@ -1,0 +1,86 @@
+{
+  "title": "الفئات",
+  "categories_list": {
+    "entertainment": {
+      "name": "ترفيه",
+      "items": {
+        "games": "ألعاب",
+        "movies": "أفلام",
+        "music": "موسيقى",
+        "other": "ترفيه",
+        "sports": "رياضة"
+      }
+    },
+    "food": {
+      "name": "طعام ومشروبات",
+      "items": {
+        "diningOut": "تناول الطعام خارج المنزل",
+        "groceries": "بقالة",
+        "liquor": "مشروبات كحولية",
+        "other": "طعام ومشروبات"
+      }
+    },
+    "general": {
+      "name": "عام",
+      "items": {
+        "general": "عام",
+        "other": "عام"
+      }
+    },
+    "home": {
+      "name": "المنزل",
+      "items": {
+        "electronics": "إلكترونيات",
+        "furniture": "أثاث",
+        "maintenance": "صيانة",
+        "mortgage": "رهن عقاري",
+        "other": "المنزل",
+        "pets": "حيوانات أليفة",
+        "rent": "إيجار",
+        "services": "خدمات",
+        "supplies": "مستلزمات"
+      }
+    },
+    "life": {
+      "name": "الحياة",
+      "items": {
+        "childcare": "رعاية الأطفال",
+        "clothing": "ملابس",
+        "education": "تعليم",
+        "gifts": "هدايا",
+        "insurance": "تأمين",
+        "medical": "طبي",
+        "other": "الحياة",
+        "taxes": "ضرائب"
+      }
+    },
+    "travel": {
+      "name": "سفر",
+      "items": {
+        "bicycle": "دراجة",
+        "bus": "حافلة",
+        "car": "سيارة",
+        "fuel": "وقود",
+        "hotel": "فندق",
+        "other": "سفر",
+        "parking": "مواقف السيارات",
+        "plane": "طائرة",
+        "taxi": "أجرة",
+        "train": "قطار"
+      }
+    },
+    "utilities": {
+      "name": "خدمات عامة",
+      "items": {
+        "cleaning": "تنظيف",
+        "electricity": "كهرباء",
+        "gas": "غاز",
+        "internet": "إنترنت",
+        "other": "خدمات عامة",
+        "phone": "هاتف",
+        "trash": "نفايات",
+        "water": "مياه"
+      }
+    }
+  }
+}

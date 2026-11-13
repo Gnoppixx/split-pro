@@ -1,0 +1,82 @@
+{
+  "features": {
+    "currency_conversion": {
+      "title": "تحويل العملات",
+      "description": "حوّل بسرعة بين العملات المختلفة باستخدام أسعار صرف حديثة أو تاريخية"
+    },
+    "recurring_transactions": {
+      "title": "المعاملات المتكررة",
+      "description": "قم بإعداد مصروفات متكررة تلقائية للإيجار أو الاشتراكات أو أي تكاليف مشتركة منتظمة"
+    },
+    "debt_simplification": {
+      "title": "تبسيط الديون",
+      "description": "تبسيط الديون بين المجموعات تلقائياً لتقليل عدد المعاملات المطلوبة بين الأصدقاء"
+    },
+    "groups_and_friends": {
+      "title": "المجموعات والأصدقاء",
+      "description": "يمكنك إنشاء مجموعات متعددة أو إضافة الرصيد مباشرة. سيتم توحيد كل شيء"
+    },
+    "i18": {
+      "title": "التدويل",
+      "description": "متاح بعدة لغات لجعل تقسيم المصاريف في متناول الجميع حول العالم"
+    },
+    "bank_connection": {
+      "title": "ربط البنك",
+      "description": "أضف المصروفات بشكل أسرع من خلال التكامل مع واجهة برمجة تطبيقات معاملات حسابات GoCardless أو Plaid"
+    },
+    "import_splitwise": {
+      "title": "استيراد من Splitwise",
+      "description": "لا تحتاج إلى نقل الأرصدة يدوياً. يمكنك استيراد المستخدمين والمجموعات من Splitwise"
+    },
+    "multiple_currencies": {
+      "title": "عملات متعددة",
+      "description": "تحتاج إلى إضافة مصروف بعملة مختلفة لنفس المستخدم؟ ليس مشكلة!"
+    },
+    "open_source": {
+      "title": "مفتوح المصدر",
+      "description": "ما يجعل من الصعب أن يصبح شريراً. سهل الاستضافة ذاتياً"
+    },
+    "push_notifications": {
+      "title": "إشعارات فورية",
+      "description": "لا تفوت أي إشعارات مهمة. احصل على إشعار عندما يضيف شخص ما مصروفاً أو يقوم بتسوية الحسابات"
+    },
+    "pwa_support": {
+      "title": "دعم PWA",
+      "description": "تحب تطبيقات الجوال؟ لقد غطينا ذلك. قم بتثبيتها كتطبيق PWA ولن تلاحظ حتى!"
+    },
+    "title": "الميزات",
+    "unequal_split": {
+      "title": "تقسيم غير متساوٍ",
+      "description": "خيارات تقسيم متقدمة. حسب الحصص أو النسبة المئوية أو المبالغ المحددة."
+    },
+    "upload_receipts": {
+      "title": "تحميل الإيصالات",
+      "description": "قم بتحميل الإيصالات مع المصروف"
+    }
+  },
+  "footer": {
+    "built_by": "مبني بواسطة"
+  },
+  "hero": {
+    "add_expense_button": "إضافة مصروف",
+    "star_github_button": "أعطِ نجمة على GitHub",
+    "subtitle_link": "مفتوح المصدر",
+    "subtitle_part1": "بديل",
+    "subtitle_part2": "لـ SplitWise",
+    "title_highlight": "مجاني",
+    "title_part1": "قسّم المصروفات مع أصدقائك",
+    "image_alt": "معاينة تطبيق SplitPro",
+    "title_before_highlight": "قسّم المصروفات مع أصدقائك",
+    "title_after_highlight": ".",
+    "subtitle": "بديل مفتوح المصدر لـ SplitWise."
+  },
+  "meta": {
+    "description": "SplitPro: قسّم المصروفات مع أصدقائك مجاناً",
+    "title": "SplitPro: قسّم المصروفات مع أصدقائك مجاناً"
+  },
+  "nav": {
+    "app_name": "SplitPro",
+    "privacy": "الخصوصية",
+    "terms": "الشروط"
+  }
+}

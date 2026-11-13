@@ -605,9 +605,16 @@ const BalancePage: NextPageWithUser<{
 
 BalancePage.auth = true;
 
+export async function getStaticPaths() { 
+  return { 
+    paths: [], 
+    fallback: true, 
+  }; 
+} 
+
 export default BalancePage;
 
-export const getServerSideProps: GetServerSideProps = async (context) => {
+export const getStaticProps: GetServerSideProps = async (context) => {
   const group = await db.group.findFirst({
     where: {
       id: Number(context.query.groupId),

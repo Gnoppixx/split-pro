@@ -203,7 +203,7 @@ const AccountPage: NextPageWithUser<{
 
 AccountPage.auth = true;
 
-export const getServerSideProps: GetServerSideProps = async (context) => ({
+export const getStaticProps: GetServerSideProps = async (context) => ({
   props: {
     feedbackPossible: Boolean(env.FEEDBACK_EMAIL),
     bankConnectionEnabled: isBankConnectionConfigured(),

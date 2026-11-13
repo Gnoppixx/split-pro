@@ -276,6 +276,6 @@ const MobileScreenShot = () => {
   );
 };
 
-export const getServerSideProps: GetServerSideProps = async (context) => ({
+export const getStaticProps: GetServerSideProps = async (context) => ({
   props: await customServerSideTranslations(context.locale, ['home']),
 });

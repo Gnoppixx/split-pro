@@ -267,7 +267,7 @@ AddPage.auth = true;
 
 export default AddPage;
 
-export const getServerSideProps: GetServerSideProps = async (context) => ({
+export const getStaticProps: GetServerSideProps = async (context) => ({
   props: {
     enableSendingInvites: env.ENABLE_SENDING_INVITES,
     bankConnectionEnabled: isBankConnectionConfigured(),

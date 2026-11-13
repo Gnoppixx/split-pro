@@ -124,10 +124,17 @@ const ExpensesPage: NextPageWithUser = ({ user }) => {
 
 ExpensesPage.auth = true;
 
-export const getServerSideProps: GetServerSideProps = async (context) => ({
+export const getStaticProps: GetServerSideProps = async (context) => ({
   props: {
     ...(await customServerSideTranslations(context.locale, ['common'])),
   },
 });
+
+export async function getStaticPaths() { 
+  return { 
+    paths: [], 
+    fallback: true, 
+  }; 
+} 
 
 export default ExpensesPage;

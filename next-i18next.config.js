@@ -28,6 +28,7 @@ const config = {
       'es-AR',
       'id',
       'hu',
+      'ar',
     ],
     localeDetection: false,
   },

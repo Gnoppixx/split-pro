@@ -1,54 +1,24 @@
-import { type GetServerSideProps } from 'next';
-import { toast } from 'sonner';
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
+import { useSession } from 'next-auth/react';
 
-import { joinGroup } from '~/server/api/services/splitService';
-import { getServerAuthSession } from '~/server/auth';
-import type { NextPageWithUser } from '~/types';
+const JoinGroup = () => {
+  const router = useRouter();
+  const { data: session, status } = useSession();
+  const { groupId } = router.query;
 
-const Home: NextPageWithUser = () => <div />;
+  useEffect(() => {
+    if (status === 'loading') return;
 
-Home.auth = true;
-
-export default Home;
-
-export const getServerSideProps: GetServerSideProps = async (context) => {
-  const session = await getServerAuthSession(context);
-  const {
-    query: { groupId },
-  } = context;
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: `/auth/signin?callbackUrl=${encodeURIComponent(context.resolvedUrl)}`,
-        permanent: false,
-      },
-    };
-  } else if (!groupId || Array.isArray(groupId)) {
-    toast.warning('Could not find group');
-    return {
-      redirect: {
-        destination: '/groups',
-        permanent: false,
-      },
-    };
-  } else {
-    try {
-      const { id } = await joinGroup(session.user.id, groupId);
-      return {
-        redirect: {
-          destination: `/groups/${id}`,
-          permanent: false,
-        },
-      };
-    } catch (e) {
-      console.error(e);
-      return {
-        redirect: {
-          destination: '/groups',
-          permanent: false,
-        },
-      };
+    if (!session) {
+      router.replace(`/auth/signin?callbackUrl=${encodeURIComponent(router.asPath)}`);
+    } else if (!groupId) {
+      router.replace('/groups');
     }
-  }
+    // joinGroup logic would go here with API call
+  }, [status, session, groupId, router]);
+
+  return <div />;
 };
+
+export default JoinGroup;

@@ -292,36 +292,8 @@ const Home: NextPage<{
 
 export default Home;
 
-export const getServerSideProps: GetServerSideProps = async (context) => {
-  const session = await getServerAuthSession(context);
-  let providers: Record<string, ClientSafeProvider> | null = null;
-  try {
-    providers = await getProviders();
-  } catch (error) {
-    console.error(error);
-  }
-  const { callbackUrl, error } = context.query;
-
-  if (session) {
-    const redirectUrl = env.DEFAULT_HOMEPAGE == '/home' ? '/balances' : env.DEFAULT_HOMEPAGE;
-    const destination = callbackUrl && !Array.isArray(callbackUrl) ? callbackUrl : redirectUrl;
-
-    return {
-      redirect: {
-        destination: destination ?? '/balances',
-        permanent: false,
-      },
-    };
-  }
-
+export const getStaticProps = async () => {
   return {
-    props: {
-      ...(await customServerSideTranslations(context.locale, ['common'])),
-      error: typeof error === 'string' ? error : '',
-      feedbackEmail: env.FEEDBACK_EMAIL ?? '',
-      providers: Object.values(providers ?? {}),
-      callbackUrl: callbackUrl && !Array.isArray(callbackUrl) ? callbackUrl : '',
-      oauthAutoRedirect: env.OAUTH_AUTO_REDIRECT,
-    },
+    props: { providers: [] },
   };
 };

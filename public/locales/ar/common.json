@@ -1,0 +1,282 @@
+{
+  "account": {
+    "title": "الحساب",
+    "edit_name": {
+      "title": "تحرير التفاصيل",
+      "avatar_label": "صورة الملف الشخصي",
+      "avatar_preview": "معاينة الصورة الرمزية",
+      "select_avatar": "اختر صورة",
+      "apply_avatar": "تطبيق الصورة الرمزية",
+      "remove_avatar": "إزالة الصورة الرمزية",
+      "zoom": "تكبير",
+      "placeholder": "أدخل الاسم"
+    },
+    "change_language": "تغيير اللغة",
+    "change_language_details": {
+      "title": "اختر لغة",
+      "placeholder": "اختر لغة",
+      "messages": {
+        "language_changed": "تم تغيير اللغة بنجاح"
+      },
+      "no_language_found": "لم يتم العثور على لغة."
+    },
+    "support_us": "رعايتنا",
+    "download_app": "تحميل التطبيق",
+    "download_app_details": {
+      "title": "تحميل التطبيق",
+      "download_as_pwa": "يمكنك تحميل SplitPro كتطبيق PWA إلى الشاشة الرئيسية.",
+      "using_android": "إذا كنت تستخدم أندرويد، تحقق من هذا",
+      "using_ios": "إذا كنت تستخدم iOS، تحقق من هذا",
+      "video": "فيديو"
+    },
+    "follow_on_x": "تابعنا على X",
+    "star_on_github": "أعطِ نجمة على GitHub",
+    "write_review": "اكتب مراجعة",
+    "import_from_splitwise": "استيراد من Splitwise",
+    "import_from_splitwise_details": {
+      "follow_to_export_splitwise_data": "اتبع هذا الرابط لتصدير بيانات splitwise",
+      "export_splitwise_data_button": "تصدير بيانات splitwise",
+      "choose_file": "اختر ملفاً",
+      "no_file_chosen": "لم يتم اختيار ملف",
+      "note": "ملاحظة: يدعم حاليًا استيراد الأصدقاء والمجموعات فقط. لن يستورد المعاملات. نعمل على ذلك.",
+      "messages": {
+        "import_success": "تم الاستيراد بنجاح"
+      }
+    },
+    "logout": "تسجيل الخروج",
+    "download_splitpro_data": "تحميل بيانات SplitPro",
+    "default_balance_currency": "عملة الرصيد الافتراضية",
+    "submit_feedback": "إرسال ملاحظات",
+    "submit_feedback_details": {
+      "title": "إرسال ملاحظات",
+      "placeholder": "أدخل ملاحظاتك",
+      "messages": {
+        "submit_error": "فشل في إرسال الملاحظات",
+        "submit_success": "تم إرسال الملاحظات"
+      }
+    },
+    "notifications": {
+      "enable_notification": "تفعيل الإشعارات",
+      "disable_notification": "تعطيل الإشعارات",
+      "messages": {
+        "notification_granted": "ستتلقى الإشعارات الآن"
+      }
+    },
+    "debug_info": "معلومات التصحيح",
+    "debug_info_details": {
+      "title": "معلومات التصحيح",
+      "description": "الصق المعلومات أدناه عند إنشاء طلب دعم:",
+      "user_agent": "وكيل المستخدم",
+      "git": "Git",
+      "version": "الإصدار",
+      "new_version_available": "إصدار جديد متاح:",
+      "send_test_notification": "إرسال إشعار تجريبي",
+      "test_notification_sent": "تم إرسال الإشعار التجريبي",
+      "copy_failed": "فشل في نسخ معلومات التصحيح إلى الحافظة"
+    },
+    "messages": {
+      "submit_success": "تم تحديث التفاصيل",
+      "submit_error": "فشل في تحديث التفاصيل"
+    }
+  },
+  "actions": {
+    "add": "إضافة",
+    "cancel": "إلغاء",
+    "close": "إغلاق",
+    "delete": "حذف",
+    "edit": "تحرير",
+    "export": "تصدير",
+    "import": "استيراد",
+    "invite": "دعوة",
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "ok": "حسنًا",
+    "open": "فتح",
+    "pay": "دفع",
+    "register": "التسجيل",
+    "remove": "إزالة",
+    "save": "حفظ",
+    "search": "بحث",
+    "send": "إرسال",
+    "settings": "الإعدادات",
+    "share": "مشاركة",
+    "sign_in": "تسجيل الدخول",
+    "sign_out": "تسجيل الخروج",
+    "submit": "إرسال",
+    "update": "تحديث",
+    "view": "عرض"
+  },
+  "actors": {
+    "everyone": "الجميع",
+    "friend": {
+      "other": "صديق"
+    },
+    "group": {
+      "other": "مجموعة"
+    },
+    "me": "أنا",
+    "participant": {
+      "other": "مشارك"
+    },
+    "user": {
+      "other": "مستخدم"
+    }
+  },
+  "auth": {
+    "email": "البريد الإلكتروني",
+    "login": "تسجيل الدخول",
+    "password": "كلمة المرور",
+    "register": "التسجيل",
+    "sign_in": "تسجيل الدخول",
+    "sign_out": "تسجيل الخروج"
+  },
+  "currency_conversion": {
+    "from": "من",
+    "rate": "سعر الصرف",
+    "to": "إلى"
+  },
+  "errors": {
+    "generic": "حدث خطأ ما. حاول مرة أخرى لاحقًا.",
+    "loading": "فشل في التحميل",
+    "network": "خطأ في الشبكة"
+  },
+  "bank_transactions": {
+    "date": "التاريخ",
+    "description": "الوصف",
+    "amount": "المبلغ"
+  },
+  "expense_details": {
+    "amount": "المبلغ",
+    "balance": "الرصيد",
+    "category": "الفئة",
+    "created": "تاريخ الإنشاء",
+    "currency": "العملة",
+    "date": "التاريخ",
+    "description": "الوصف",
+    "expense": "المصروف",
+    "group": "المجموعة",
+    "name": "الاسم",
+    "paid_by": "دفعه",
+    "participants": "المشاركون",
+    "recurring": "متكرر",
+    "split": "التقسيم",
+    "title": "تفاصيل المصروف",
+    "upload_receipt": "تحميل الإيصال",
+    "receipt": "الإيصال",
+    "settle_up": "تسوية الحسابات"
+  },
+  "group_details": {
+    "balances": "الأرصدة",
+    "expenses": "المصروفات",
+    "invited": "مدعو",
+    "member": {
+      "other": "عضو"
+    },
+    "name": "الاسم",
+    "title": "تفاصيل المجموعة"
+  },
+  "invite_message": {
+    "body": "انضم إلي في SplitPro! {link}",
+    "subject": "انضم إلى مجموعة SplitPro"
+  },
+  "meta": {
+    "description": "قسّم المصروفات مع أصدقائك مجاناً",
+    "title": "SplitPro: قسّم المصروفات مع أصدقائك مجاناً"
+  },
+  "balances": {
+    "lent": {
+      "other": "أقرضت"
+    },
+    "owed": {
+      "other": "مستحق"
+    },
+    "you_lent": "أنت أقرضت",
+    "you_owe": "أنت مستحق"
+  },
+  "navigation": {
+    "balances": "الأرصدة",
+    "expenses": "المصروفات",
+    "groups": "المجموعات",
+    "home": "الرئيسية",
+    "profile": "الملف الشخصي"
+  },
+  "recurrence": {
+    "daily": "يومي",
+    "end": "نهاية",
+    "every": "كل",
+    "frequency": "التردد",
+    "monthly": "شهري",
+    "occurrence": {
+      "one": "مرة واحدة",
+      "other": "مرات"
+    },
+    "once": "مرة واحدة",
+    "repeats": "يتكرر",
+    "start": "بداية",
+    "weekly": "أسبوعي",
+    "yearly": "سنوي"
+  },
+  "ui": {
+    "back": "رجوع",
+    "close": "إغلاق",
+    "confirm": "تأكيد",
+    "done": "تم",
+    "error": "خطأ",
+    "loading": "جار التحميل...",
+    "name": "الاسم",
+    "next": "التالي",
+    "previous": "السابق",
+    "retry": "إعادة المحاولة",
+    "success": "نجاح"
+  },
+  "friend": {
+    "add": "إضافة صديق",
+    "balance": "الرصيد",
+    "name": "الاسم",
+    "remove": "إزالة صديق"
+  },
+  "activity": {
+    "no_activity": "لا يوجد نشاط",
+    "title": "النشاط"
+  },
+  "balance_summary": {
+    "balance": "الرصيد",
+    "lent": "أقرضت",
+    "owed": "مستحق"
+  },
+  "balance_list": {
+    "no_balances": "لا توجد أرصدة",
+    "title": "الأرصدة"
+  },
+  "expense_participant": {
+    "paid": "دفع",
+    "owes": "مستحق"
+  },
+  "expense_metadata": {
+    "category": "الفئة",
+    "currency": "العملة",
+    "date": "التاريخ",
+    "recurring": "متكرر"
+  },
+  "expense_list": {
+    "add_expense": "إضافة مصروف",
+    "no_expenses": "لا توجد مصروفات",
+    "title": "المصروفات"
+  },
+  "notifications": {
+    "enabled": "الإشعارات مفعلة",
+    "disabled": "الإشعارات معطلة"
+  },
+  "pagination": {
+    "next": "التالي",
+    "of": "من",
+    "previous": "السابق",
+    "showing": "عرض {from}-{to} من {total}"
+  },
+  "comments": {
+    "add_comment": "إضافة تعليق",
+    "no_comments": "لا توجد تعليقات",
+    "placeholder": "اكتب تعليقاً...",
+    "title": "التعليقات"
+  }
+}

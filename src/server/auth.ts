@@ -174,10 +174,15 @@ export const authOptions: NextAuthOptions = {
  *
  * @see https://next-auth.js.org/configuration/nextjs
  */
-export const getServerAuthSession = (ctx: {
+export const getServerAuthSession = async (ctx?: {
   req: GetServerSidePropsContext['req'];
   res: GetServerSidePropsContext['res'];
-}) => getServerSession(ctx.req, ctx.res, authOptions);
+}) => {
+  if (!ctx?.req || !ctx?.res) {
+    return null;
+  }
+  return getServerSession(ctx.req, ctx.res, authOptions);
+};
 
 export const getServerAuthSessionForSSG = async (context: GetServerSidePropsContext) => {
   console.log('Before getting session');

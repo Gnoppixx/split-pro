@@ -104,7 +104,7 @@ const Privacy: NextPage<{ feedbackEmail: string }> = ({ feedbackEmail }) => (
 
 export default Privacy;
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   return {
     props: {
       feedbackEmail: env.FEEDBACK_EMAIL ?? '',

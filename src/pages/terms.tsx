@@ -76,7 +76,7 @@ const Terms: NextPage<{ feedbackEmail: string }> = ({ feedbackEmail }) => (
 
 export default Terms;
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   return {
     props: {
       feedbackEmail: env.FEEDBACK_EMAIL ?? '',
